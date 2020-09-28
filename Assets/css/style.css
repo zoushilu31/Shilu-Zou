@@ -93,7 +93,7 @@ p {
 }
 
 .hero {
-    height: 600px;
+    height: auto;
     width: 200%;
     margin-bottom: 5px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -145,13 +145,13 @@ body {
   }
 
   .grid-item-4 {
-    grid-column: 1;
+    grid-column: 2;
     grid-row: 3;
   }
 
   .grid-item-5 {
-    grid-column: 2;
-    grid-row: 3;
+    grid-column: 1;
+    grid-row: 1;
   }
   
   /* .grid-text-1 {
