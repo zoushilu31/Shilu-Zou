@@ -1,156 +1,85 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shilu Zou</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">`
 </head>
 
 <body>
-    <div class="header">
-        <h1>Shilu Zou <span class="seo"></span>
-        </h1>
-    </div>
-    <div class="header">
-        <h1><span class="seo"></span></h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#About Me">About Me</a>
-                </li>
-                <li> 
-                    <a href="#Work">Work</a>
-                </li>
-                <li>
-                    <a href="#Contact Me">Contact</a>
-                </li>
-                <li>
-                    <a href="#Resume">Resume</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</body>
+    <header>
+        <nav class="navbar navbar-default">
+            <a class="navbar-brand" href="/">
+                <h2>Shilu Zou</h2>
+            </a>
+        </nav>
+    </header>
 
-        </div>
-</div>
-<!--Hero Section-->
-<div class=hero>
-        <div class="hero"><img src="./assets/images/header.jpg" style="width:1280px;height:500px;" />
-        </div>
-</div>
+    <section class="nav-sec">
+        <div class="d-flex justify-content-between">
+            <div class="p-2 nav-icon-lg mint-green">
+                <a class="nav-icon" href="#Aboutme">
+                    <h3 class="ui white image header"><i class="home icon icon-white"></i>About Me</h3>
+                </a>
+            </div>
+            <div class="p-2 nav-icon-lg clean-black">
+                <a class="nav-icon" href="#mywork">
 
-        <div class="content">
-            <div class="clearfix">
-                <div class="column">
-                    <section id="About Me" class="intro">
-                        <div class="grid-container" id="about-me">
-                            <!--Grid About Me Header-->
-                            <div class="grid-item item-6">
-                                <h2>
-                                    About Me
-                                </h2>
-                                </div>
-                         </div>
-                    </section>
-                </div>
+                    <h3 class="ui white image header"> <i class="plus icon icon-white"></i> Work</h3>
+                </a>
+            </div>
+            <div class="p-2 nav-icon-lg dark-black">
+                <a class="nav-icon" href="#contact">
+                    <h3 class="ui white image header"><i class="heart icon icon-white"></i>Contact</h3>
+                </a>
+            </div>
+
+            <div class="p-2 nav-icon-lg dark-black">
+                <a class="nav-icon" href="#resume">
+                    <h3 class="ui white image header"><i class="address card outline icon"></i>Resume</h3>
+                </a>
             </div>
         </div>
+    </section>
 
-                <text>Photography, Videographer and Web Developer
-                </text>
-                <div class="content">
-                    <div class="clearfix">
-                        <div class="column">
-                            <section id="Work" class="intro">
-                                <div class="grid-container" id="work">
-                                    <!--Grid About Me Header-->
-                                    <div class="grid-item item-6">
-                                        <h2>
-                                            Work
-                                        </h2>
-                                        </div>
+<div class="wrapper newsfeed">
+<main>
+  <h3 class="ui center aligned header" id="category-header">About Me</h3>
+  <center><h2>Photography, Videographer and Web Developer</h2></center>
+<br>
+<br>
 
-                                    <div class="grid-container">
-                                        <div class="container">
-                                        </div>
-                                        <div class="grid-item-1 grid-item">
-                                            <div class="flex-item">
-                                                <div>
-                                                    <img src="./assets/images/photography.jpg"
-                                                        style="width:100%;height:auto;" class="container" />
-                                                    <li>
-                                                        <h2>Photography</h2>
-                                                    </li>
-                                                    <div class="flex-row">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="grid-item-2 grid-item">
-                                            <div>
-                                                <img src="./assets/images/drone.jpg" style="width:50%;height:auto;"
-                                                    class="container" />
-                                                <li>
-                                                    <h2>Dronetography</h2>
-                                                </li>
-                                            </div>
-                                        </div>
+<h3 class="ui center aligned header" id="category-header">My Work</h3>
 
-                                        <div class="grid-item-3 grid-item">
+<div class="ui two column stackable grid">
+  <div class="column">
+    <div class="ui segment"><img src="./assets/images/photography.jpg"style="width:100%;height:auto;" class="container" />
+      <h2>Photography</h2></div>
+  </div>
+  <div class="column">
+    <div class="ui segment"><img src="./assets/images/ad.png" style="width:100%;height:auto;"class="container" />
+      <a href="https://actively-distanced.herokuapp.com/"> <h2>Activily Distanced App</h2></div>
+  </div>
 
-                                            <div>
-                                                <img src="./assets/images/videography.jpg"
-                                                    style="width:50%;height:auto;" class="container" />
-                                                <li>
-                                                    <h2>Videography</h2>
-                                                </li>
-                                            </div>
-                                        </div>
+  <div class="column">
+    <div class="ui segment"><img src="./assets/images/airhiker.png" style="width:100%;height:auto;" class="container" />
+      <a href="https://zoushilu31.github.io/air-hiker/"> <h2>Air Hiker App</h2></a></div>
+  </div>
 
-                                        <div class="grid-item-4 grid-item">
-                                            <div>
-                                                <img src="./assets/images/airhiker.png" style="width:100%;height:auto;"
-                                                    class="container" />
-                                                <li>
-                                                   
-                                                    <a href="https://zoushilu31.github.io/air-hiker/"> <h2>Air Hiker App</h2>
-                                                
-                                                </li>
-                                            </div>
-                                        </div>
+</div>
+</main>
 
-                                        <div class="grid-item-5 grid-item">
-                                            <div>
-                                                <img src="./assets/images/client.jpg" style="width:50%;height:auto;"
-                                                    class="container" />
-                                                <div class="hvrbox-layer_top">
-                                                    <li>
-                                                        <h2>Who I Work With</h2>
-                                                    </li>
-                                                </div>
-                                            </div>
-                                        </div>
-                            </section>
-                            <div class="content">
-                                <div class="clearfix">
-                                    <div class="column">
-                                        <section id="Contact Me" class="intro">
-                                            <ul>
-                                                <h2>Contact Me</p>
-                                                </h2>
-                                            </ul>
-                                            <a href="mailto:hege@example.com">zoushilu@gmail.com</a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                       
-                    </div>
-
+<footer>
+  <center>
+    <br>
+    <br>
+      <h4 class="ui teal image header">Thank you! </h4>
+  </center>
+</footer>
 </body>
 
 </html>
